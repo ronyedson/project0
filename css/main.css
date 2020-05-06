@@ -1,0 +1,64 @@
+.topnavbar {
+  position: fixed;
+  overflow: hidden;
+  background-color: #d3dade;
+  width: 100%; }
+  .topnavbar a {
+    float: left;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 14px 16px;
+    text-align: center;
+    color: black; }
+  .topnavbar a:hover {
+    background-color: white;
+    color: #689ebd; }
+  .topnavbar a.active {
+    background-color: black;
+    color: white; }
+
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 150px;
+  background-color: #d3dade;
+  overflow: hidden;
+  height: 150px;
+  padding: 20px 15px; }
+  .sidebar a {
+    color: #689ebd;
+    text-decoration: none; }
+
+.main {
+  padding-left: 100px;
+  padding-top: 75px; }
+
+.source {
+  bottom: 10;
+  text-align: right;
+  width: 100%;
+  float: none; }
+  .source p {
+    padding-right: 20px;
+    bottom: 0;
+    right: 20px; }
+
+img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+#questionsTable {
+  width: 50%;
+  height: 30%;
+  padding-left: 20px;
+  float: left; }
+
+#dataTable {
+  float: left;
+  width: 50%;
+  height: 30%;
+  padding-right: 200px; }
+
+/*# sourceMappingURL=main.css.map */

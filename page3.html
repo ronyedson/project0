@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page 3</title>
+        <title>Example</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
       <div class="topnavbar">
         <a href="index.html">Home</a>
         <a href="types.html">Types</a>
         <a href="applications.html">Applications</a>
-        <a class="active" href="page3.html">Page 3</a>
+        <a class="active" href="page3.html">Example</a>
       </div>
       <div class="main">
-        <table class="table table-sm" style="width:30%; height:10%">
+        <h3>Below you can see a example of how neural networks can be used</h3>
+        <p>In the left there is a table with information about some wrestler and
+           on the right there is some questions that people may want to ask and
+           what the AI did was analyze the questions and tried to find an answer
+           on the table on the left.</p>
+           <br>
+        <table id="dataTable" class="table table-sm">
           <tr>
             <th scope="col">Rank</th>
             <th scope="col">Name</th>
@@ -57,7 +63,7 @@
             <td>1,131</td>
           </tr>
         </table>
-        <table class="table table-sm">
+        <table id="questionsTable" class="table table-sm">
           <tr>
             <th>#</th>
             <th>Questions</th>
@@ -81,9 +87,13 @@
           <tr>
             <td>4</td>
             <td>What is the number of reigns for Harley Race?</td>
-            <td><7/td>
+            <td>7</td>
           </tr>
         </table>
+      </div>
+      <br>
+      <div class="source" style="position:fixed; bottom:0;">
+        <p>Source: <a href="https://ai.googleblog.com/2020/04/using-neural-networks-to-find-answers.html">https://ai.googleblog.com/2020/04/using-neural-networks-to-find-answers.html</a></p>
       </div>
     </body>
 </html>
