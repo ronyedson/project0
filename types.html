@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Types of Neural Networks</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="topnavbar">
+      <a href="index.html">Home</a>
+      <a class="active" href="types.html">Types</a>
+      <a href="applications.html">Applications</a>
+      <a href="page3.html">Page 3</a>
+    </div>
+
+    <div class="sidebar">
+        <a href="#cnn">Convolutional Neural Network</a><br>
+        <a href="#ffn">Feed Foward Network</a><br>
+        <a href="#mp">Multilayer Perceptron</a><br>
+        <a href="#rnn">Recurrent Neural Network</a><br>
+    </div>
+    <h1 style="padding-top:75px; padding-left:50px">Those are some of the most common types of neural networks</h1>
+    <div id="cnn" class="main">
+      <h2>Convolutional Neural Network</h2>
+      <p>A convolutional neural network(CNN) uses a variation of the multilayer
+         perceptrons. A CNN contains one or more than one convolutional layers.
+         These layers can either be completely interconnected or pooled.
+         Before passing the result to the next layer, the convolutional layer
+         uses a convolutional operation on the input. Due to this convolutional
+         operation, the network can be much deeper but with much fewer
+         parameters.
+         Due to this ability, convolutional neural networks show very effective
+         results in image and video recognition, natural language processing,
+         and recommender systems
+         Convolutional neural networks also show great results in semantic
+         parsing and paraphrase detection. They are also applied in signal
+         processing and image classification.
+         CNNs are also being used in image analysis and recognition in
+         agriculture where weather features are extracted from satellites like
+         LSAT to predict the growth and yield of a piece of land. Here’s an
+         image of what a Convolutional Neural Network looks like.</p>
+         <img src="https://www.digitalvidya.com/wp-content/uploads/2019/01/Image-6-1.png" alt="">
+    </div>
+
+    <div id="ffn" class="main">
+      <h2>Feed Foward Network</h2>
+      <p>This is one of the simplest types of artificial neural networks. In a
+        feedforward neural network, the data passes through the different input
+        nodes till it reaches the output node.
+        In other words, data moves in only one direction from the first tier
+        onwards until it reaches the output node. This is also known as a front
+        propagated wave which is usually achieved by using a classifying
+        activation function.
+        Unlike in more complex types of neural networks, there is no
+        backpropagation and data moves in one direction only. A feedforward
+        neural network may have a single layer or it may have hidden layers.
+        In a feedforward neural network, the sum of the products of the inputs
+        and their weights are calculated. This is then fed to the output. Here
+        is an example of a single layer feedforward neural network.
+      </p>
+      <img src="https://www.digitalvidya.com/wp-content/uploads/2019/01/Image-2-3.png" alt="">
+    </div>
+
+    <div id="mp" class="main">
+      <h2>Multilayer Perceptron</h2>
+      <p>A multilayer perceptron has three or more layers. It is used to
+        classify data that cannot be separated linearly. It is a type of
+        artificial neural network that is fully connected. This is because
+        every single node in a layer is connected to each node in the following
+        layer.
+        A multilayer perceptron uses a nonlinear activation function
+        (mainly hyperbolic tangent or logistic function). Here’s what a
+        multilayer perceptron looks like.</p>
+        <img src="https://www.digitalvidya.com/wp-content/uploads/2019/01/Image-5-1.png" alt="">
+    </div>
+
+    <div id="rnn" class="main">
+      <h2>Recurrent Neural Network</h2>
+      <p>A Recurrent Neural Network is a type of artificial neural network in
+        which the output of a particular layer is saved and fed back to the
+        input. This helps predict the outcome of the layer.
+        The first layer is formed in the same way as it is in the feedforward
+        network. That is, with the product of the sum of the weights and
+        features. However, in subsequent layers, the recurrent neural network
+        process begins.
+        From each time-step to the next, each node will remember some
+        information that it had in the previous time-step. In other words,
+        each node acts as a memory cell while computing and carrying out
+        operations. The neural network begins with the front propagation as
+        usual but remembers the information it may need to use later.
+        If the prediction is wrong, the system self-learns and works towards
+        making the right prediction during the backpropagation. This type of
+        neural network is very effective in text-to-speech conversion
+        technology.  Here’s what a recurrent neural network looks like.</p>
+        <img src="https://www.digitalvidya.com/wp-content/uploads/2019/01/Image-7.gif" alt="">
+    </div>
+    <p class="source">Source: <a href="https://www.digitalvidya.com/blog/types-of-neural-networks/">https://www.digitalvidya.com/blog/types-of-neural-networks/</a></p>
+  </body>
+</html>
